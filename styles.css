@@ -88,6 +88,16 @@ body::before {
   text-shadow: var(--glow-yellow);
   text-decoration: none;
   white-space: nowrap;
+  display: inline-flex;
+  align-items: center;
+  gap: .4rem;
+}
+.brand-logo {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  object-fit: cover;
+  flex-shrink: 0;
 }
 .header-phone {
   font-size: .78rem; font-weight: 600;
