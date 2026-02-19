@@ -348,7 +348,7 @@ body::before {
 
 /* Logo oficial (imagen real) */
 .logo-img-wrap {
-  width: min(160px, 44vw);
+  width: min(260px, 70vw);
   animation: logoPulse 3s ease-in-out infinite;
 }
 .logo-img-wrap img {
