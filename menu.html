@@ -1,607 +1,1315 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="es">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
-  <meta name="theme-color" content="#0d0508" />
-  <meta name="description" content="Menú completo de Gustavo Burger El Original — Hamburguesas, Perros Calientes, Parrilla, Picadas, Salchi & Chori Papas, Desgranados y Patacones." />
-  <title>Menú · Gustavo Burger El Original</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, viewport-fit=cover"
+    />
+    <meta name="theme-color" content="#0d0508" />
+    <meta
+      name="description"
+      content="Menú completo de Gustavo Burger El Original — Hamburguesas, Perros Calientes, Parrilla, Picadas, Salchi & Chori Papas, Desgranados y Patacones."
+    />
+    <title>Menú · Gustavo Burger El Original</title>
 
-  <!-- Google Fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
 
-  <!-- Estilos globales -->
-  <link rel="stylesheet" href="styles.css" />
-</head>
-<body>
+    <!-- Estilos globales -->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- ====================== HEADER ====================== -->
+    <header class="site-header">
+      <a href="index.html" class="brand" aria-label="Volver a inicio">
+        <img
+          src="images/logo.webp"
+          alt=""
+          class="brand-logo"
+          aria-hidden="true"
+        />
+        GUSTAVO BURGER
+      </a>
+      <a href="tel:3189468984" class="header-phone" aria-label="Llamar">
+        📞 3189468984
+      </a>
+    </header>
 
-  <!-- ====================== HEADER ====================== -->
-  <header class="site-header">
-    <a href="index.html" class="brand" aria-label="Volver a inicio">
-      <img src="images/logo.webp" alt="" class="brand-logo" aria-hidden="true" />
-      GUSTAVO BURGER
+    <!-- ====================== TABS NAV ====================== -->
+    <nav class="tabs-wrapper" aria-label="Categorías del menú">
+      <div class="tabs-scroll" role="tablist">
+        <button
+          class="tab-btn active"
+          role="tab"
+          aria-selected="true"
+          aria-controls="panel-hamburguesas"
+          data-tab="hamburguesas"
+        >
+          🍔 Hamburguesas
+        </button>
+        <button
+          class="tab-btn"
+          role="tab"
+          aria-selected="false"
+          aria-controls="panel-perros"
+          data-tab="perros"
+        >
+          🌭 Perros Calientes
+        </button>
+        <button
+          class="tab-btn"
+          role="tab"
+          aria-selected="false"
+          aria-controls="panel-picadas"
+          data-tab="picadas"
+        >
+          🔥 Picadas al Carbón
+        </button>
+        <button
+          class="tab-btn"
+          role="tab"
+          aria-selected="false"
+          aria-controls="panel-parrilla"
+          data-tab="parrilla"
+        >
+          🥩 Parrilla
+        </button>
+        <button
+          class="tab-btn"
+          role="tab"
+          aria-selected="false"
+          aria-controls="panel-salchi"
+          data-tab="salchi"
+        >
+          🍟 Salchi &amp; Chori
+        </button>
+        <button
+          class="tab-btn"
+          role="tab"
+          aria-selected="false"
+          aria-controls="panel-desgranados"
+          data-tab="desgranados"
+        >
+          🌽 Desgranados
+        </button>
+        <button
+          class="tab-btn"
+          role="tab"
+          aria-selected="false"
+          aria-controls="panel-patacones"
+          data-tab="patacones"
+        >
+          🍌 Patacones
+        </button>
+      </div>
+    </nav>
+
+    <!-- ====================== CONTENIDO DE TABS ====================== -->
+    <main>
+      <!-- ===== TAB 1: HAMBURGUESAS ===== -->
+      <section
+        id="panel-hamburguesas"
+        class="tab-panel active"
+        role="tabpanel"
+        aria-labelledby="tab-hamburguesas"
+      >
+        <div class="tab-panel-header" style="margin-bottom: 1.2rem">
+          <h1 class="category-title neon-title glow-yellow">Hamburguesas</h1>
+          <span class="category-badge"
+            >Incluye papa francesa, salsa de piña, queso rayado y tártara de la
+            casa</span
+          >
+
+          <!-- Sub-sección: Sencillas -->
+          <hr class="neon-divider" />
+          <p
+            style="
+              font-family: &quot;Bebas Neue&quot;, cursive;
+              font-size: 1rem;
+              letter-spacing: 0.2em;
+              color: rgba(255, 255, 255, 0.4);
+              margin-bottom: 0.6rem;
+            "
+          >
+            — SENCILLAS —
+          </p>
+        </div>
+
+        <div class="products-grid">
+          <!-- Clásica -->
+          <article class="product-card">
+            <div class="product-image-wrapper">
+              <img
+                src="images/productos/hamburguesas/hamburguesa%20sencilla.webp"
+                alt="Hamburguesa Clásica - Gustavo Burger"
+                class="product-image"
+                loading="lazy"
+                width="600"
+                height="400">
+            </div>
+            <div class="product-info">
+              <h2 class="product-name">Clásica</h2>
+              <p class="product-description">
+                Carne de res, cebolla grille, queso mozzarella, lechuga, tomate,
+                arepa y nuestra rica salsa.
+              </p>
+              <span class="product-price glow-white">$18.000</span>
+            </div>
+          </article>
+
+          <!-- Clásica Pollo -->
+          <article class="product-card">
+            <div class="product-image-wrapper">
+              <img
+                src="images/productos/hamburguesas/hamburguesa%20clasica%20pollo.webp"
+                alt="Hamburguesa Clásica Pollo - Gustavo Burger"
+                class="product-image"
+                loading="lazy"
+                width="600"
+                height="400">
+            </div>
+            <div class="product-info">
+              <h2 class="product-name">Clásica Pollo</h2>
+              <p class="product-description">
+                Filete de Pollo o desmechado, cebolla grille, queso mozzarella,
+                lechuga, tomate, arepa y nuestra rica salsa.
+              </p>
+              <span class="product-price glow-white">$20.000</span>
+            </div>
+          </article>
+        </div>
+        <!-- /sencillas grid -->
+
+        <!-- Sub-sección: Especiales -->
+        <p
+          style="
+            font-family: &quot;Bebas Neue&quot;, cursive;
+            font-size: 1rem;
+            letter-spacing: 0.2em;
+            color: rgba(255, 255, 255, 0.4);
+            margin: 1.2rem 0 0.6rem;
+          "
+        >
+          — ESPECIALES —
+        </p>
+
+        <div class="products-grid">
+          <!-- Especial -->
+          <article class="product-card">
+            <div class="product-image-wrapper">
+              <img
+                src="images/productos/hamburguesas/hamburguesa%20especial.webp"
+                alt="Hamburguesa Especial - Gustavo Burger"
+                class="product-image"
+                loading="lazy"
+                width="600"
+                height="400">
+            </div>
+            <div class="product-info">
+              <h2 class="product-name">Especial</h2>
+              <p class="product-description">
+                Carne de res, pollo desmechado, arepa, tocineta, queso
+                mozzarella, lechuga, tomate, cebolla grille y nuestra rica
+                salsa.
+              </p>
+              <span class="product-price glow-white">$23.000</span>
+            </div>
+          </article>
+
+          <!-- De la Casa -->
+          <article class="product-card">
+            <div class="product-image-wrapper">
+              <img
+                src="images/productos/hamburguesas/hamurguesa%20de%20la%20casa.webp"
+                alt="Hamburguesa De la Casa - Gustavo Burger"
+                class="product-image"
+                loading="lazy"
+                width="600"
+                height="400">
+            </div>
+            <div class="product-info">
+              <h2 class="product-name">De la Casa</h2>
+              <p class="product-description">
+                Carne de res, pollo desmechado, huevo frito, tocineta, lechuga,
+                tomate, cebolla grille con queso, rico chorizo artesanal en la
+                papa francesa y nuestra rica salsa.
+              </p>
+              <span class="product-price glow-white">$28.000</span>
+            </div>
+          </article>
+        </div>
+        <!-- /especiales grid -->
+
+        <!-- Sub-sección: Las Supremas -->
+        <p
+          style="
+            font-family: &quot;Bebas Neue&quot;, cursive;
+            font-size: 1rem;
+            letter-spacing: 0.2em;
+            color: rgba(255, 255, 255, 0.4);
+            margin: 1.2rem 0 0.6rem;
+          "
+        >
+          — LAS SUPREMAS —
+        </p>
+
+        <div class="products-grid">
+          <!-- Doble Carne -->
+          <article class="product-card">
+            <div class="product-image-wrapper">
+              <img
+                src="images/productos/hamburguesas/hamburguesa%20doble%20carne.webp"
+                alt="Hamburguesa Doble Carne - Gustavo Burger"
+                class="product-image"
+                loading="lazy"
+                width="600"
+                height="400">
+            </div>
+            <div class="product-info">
+              <h2 class="product-name">Doble Carne</h2>
+              <p class="product-description">
+                Dos carnes de res, cebolla grille, queso mozzarella, tocineta,
+                pollo desmechado, lechuga, tomate y nuestra rica salsa.
+              </p>
+              <span class="product-price glow-white">$30.000</span>
+            </div>
+          </article>
+
+          <!-- Mixta Especial -->
+          <article class="product-card">
+            <div class="product-image-wrapper">
+              <img
+                src="images/productos/hamburguesas/hamburguesa%20mixta%20especial.webp"
+                alt="Hamburguesa Mixta Especial - Gustavo Burger"
+                class="product-image"
+                loading="lazy"
+                width="600"
+                height="400">
+            </div>
+            <div class="product-info">
+              <h2 class="product-name">Mixta Especial</h2>
+              <p class="product-description">
+                Carne de res, filete de pollo, tocineta, cebolla grille, queso
+                mozarela, lechuga, tomate y nuestra rica salsa.
+              </p>
+              <span class="product-price glow-white">$30.000</span>
+            </div>
+          </article>
+
+          <!-- Artesanal -->
+          <article class="product-card">
+            <div class="product-image-wrapper">
+              <img
+                src="images/productos/hamburguesas/hamburguesa%20artesanal.webp"
+                alt="Hamburguesa Artesanal - Gustavo Burger"
+                class="product-image"
+                loading="lazy"
+                width="600"
+                height="400">
+            </div>
+            <div class="product-info">
+              <h2 class="product-name">Artesanal</h2>
+              <p class="product-description">
+                Carne de res, pollo desmechado, chorizo artesanal, maduro, queso
+                mozarela, lechuga, tomate, cebolla grille y nuestra rica salsa.
+              </p>
+              <span class="product-price glow-white">$30.000</span>
+            </div>
+          </article>
+
+          <!-- Super Especial -->
+          <article class="product-card">
+            <div class="product-image-wrapper">
+              <img
+                src="images/productos/hamburguesas/hamburguesa%20super%20especial.webp"
+                alt="Hamburguesa Super Especial - Gustavo Burger"
+                class="product-image"
+                loading="lazy"
+                width="600"
+                height="400">
+            </div>
+            <div class="product-info">
+              <h2 class="product-name">Super Especial</h2>
+              <p class="product-description">
+                Doble carne de res, filete de pollo, tocineta, queso mozarela,
+                lechuga, tomate, cebolla grille y nuestra rica salsa.
+              </p>
+              <span class="product-price glow-white">$33.000</span>
+            </div>
+          </article>
+
+          <!-- Mega Burger -->
+          <article
+            class="product-card"
+            style="border-color: rgba(255, 107, 0, 0.45)"
+          >
+            <div class="product-image-wrapper">
+              <img
+                src="images/productos/hamburguesas/hamburguesa%20mega%20burger.webp"
+                alt="Mega Burger - Gustavo Burger"
+                class="product-image"
+                loading="lazy"
+                width="600"
+                height="400">
+            </div>
+            <div class="product-info">
+              <h2
+                class="product-name"
+                style="color: var(--orange); text-shadow: var(--glow-orange)"
+              >
+                Mega Burger
+              </h2>
+              <p class="product-description">
+                Dos carnes de res, dos filetes de pollo, queso mozarela,
+                tocineta, chorizo Artesanal, lechuga, tomate, cebolla grille y
+                nuestra rica salsa.
+              </p>
+              <span
+                class="product-price"
+                style="color: var(--orange); text-shadow: var(--glow-orange)"
+                >$40.000</span
+              >
+            </div>
+          </article>
+        </div>
+        <!-- /supremas grid -->
+      </section>
+      <!-- /hamburguesas -->
+
+      <!-- ===== TAB 2: PERROS CALIENTES ===== -->
+      <section
+        id="panel-perros"
+        class="tab-panel"
+        role="tabpanel"
+        aria-labelledby="tab-perros"
+      >
+        <div style="margin-bottom: 1.2rem">
+          <h1 class="category-title neon-title glow-cyan">Perros Calientes</h1>
+          <span class="category-badge"
+            >Incluye papa francesa, salsa de piña, queso rayado y tártara de la
+            casa</span
+          >
+          <div class="category-note">
+            Todos nuestros perros son preparados con:
+            <strong
+              >salchicha americana, cebolla grille y queso mozarela
+              gratinado</strong
+            >
+            y nuestras ricas salsas.
+          </div>
+        </div>
+
+        <div class="products-grid">
+          <!-- Perro Clásico -->
+          <article class="product-card">
+            <div class="product-image-wrapper">
+              <img
+                src="images/productos/perros%20calientes/perro%20clasico.webp"
+                alt="Perro Clásico - Gustavo Burger"
+                class="product-image"
+                loading="lazy"
+                width="600"
+                height="400">
+            </div>
+            <div class="product-info">
+              <h2 class="product-name">Perro Clásico</h2>
+              <p class="product-description">Lechuga, tomate, papa Ripi.</p>
+              <span class="product-price glow-white">$16.000</span>
+            </div>
+          </article>
+
+          <!-- Perro Especial -->
+          <article class="product-card">
+            <div class="product-image-wrapper">
+              <img
+                src="images/productos/perros%20calientes/perro%20especial.webp"
+                alt="Perro Especial - Gustavo Burger"
+                class="product-image"
+                loading="lazy"
+                width="600"
+                height="400">
+            </div>
+            <div class="product-info">
+              <h2 class="product-name">Perro Especial</h2>
+              <p class="product-description">Lechuga, tomate, papa Ripi, tocineta.</p>
+              <span class="product-price glow-white">$19.000</span>
+            </div>
+          </article>
+
+          <!-- Perro Americano -->
+          <article class="product-card">
+            <div class="product-image-wrapper">
+              <img
+                src="images/productos/perros%20calientes/perro%20americano.webp"
+                alt="Perro Americano - Gustavo Burger"
+                class="product-image"
+                loading="lazy"
+                width="600"
+                height="400">
+            </div>
+            <div class="product-info">
+              <h2 class="product-name">Perro Americano</h2>
+              <p class="product-description">
+                Lechuga, tomate, papa Ripi, pollo desmechado.
+              </p>
+              <span class="product-price glow-white">$23.000</span>
+            </div>
+          </article>
+
+          <!-- Perro Loco Americano -->
+          <article class="product-card">
+            <div class="product-image-wrapper">
+              <img
+                src="images/productos/perros%20calientes/perro%20loco%20americano.webp"
+                alt="Perro Loco Americano - Gustavo Burger"
+                class="product-image"
+                loading="lazy"
+                width="600"
+                height="400">
+            </div>
+            <div class="product-info">
+              <h2 class="product-name">Perro Loco Americano</h2>
+              <p class="product-description">Carne picada, pollo desmechado.</p>
+              <span class="product-price glow-white">$25.000</span>
+            </div>
+          </article>
+
+          <!-- Choriperro -->
+          <article class="product-card">
+            <div class="product-image-wrapper">
+              <img
+                src="images/productos/perros%20calientes/choriperro.webp"
+                alt="Choriperro - Gustavo Burger"
+                class="product-image"
+                loading="lazy"
+                width="600"
+                height="400">
+            </div>
+            <div class="product-info">
+              <h2 class="product-name">Choriperro</h2>
+              <p class="product-description">
+                Chorizo picado, cebolla grille, lechuga, tomate, papa ripio,
+                tártara de la casa y queso mozzarella gratinado.
+              </p>
+              <span class="product-price glow-white">$ Consultar</span>
+            </div>
+          </article>
+
+          <!-- Mega Perro Gustavo Burguer -->
+          <article
+            class="product-card"
+            style="border-color: rgba(255, 107, 0, 0.45)"
+          >
+            <div class="product-image-wrapper">
+              <img
+                src="images/productos/perros%20calientes/mega%20perro%20gustavo%20burger.webp"
+                alt="Mega Perro Gustavo Burger - Gustavo Burger"
+                class="product-image"
+                loading="lazy"
+                width="600"
+                height="400">
+            </div>
+            <div class="product-info">
+              <h2
+                class="product-name"
+                style="color: var(--orange); text-shadow: var(--glow-orange)"
+              >
+                Mega Perro Gustavo Burguer
+              </h2>
+              <p class="product-description">
+                Dos salchichas americanas, carne picada, pollo desmechado, maíz
+                y tocineta.
+              </p>
+              <span
+                class="product-price"
+                style="color: var(--orange); text-shadow: var(--glow-orange)"
+                >$40.000</span
+              >
+            </div>
+          </article>
+        </div>
+        <!-- /perros grid -->
+      </section>
+      <!-- /perros -->
+
+      <!-- ===== TAB 3: PICADAS AL CARBÓN ===== -->
+      <section
+        id="panel-picadas"
+        class="tab-panel"
+        role="tabpanel"
+        aria-labelledby="tab-picadas"
+      >
+        <div style="margin-bottom: 1.2rem">
+          <h1
+            class="category-title neon-title"
+            style="color: var(--orange); text-shadow: var(--glow-orange)"
+          >
+            Picadas al Carbón
+          </h1>
+          <span class="category-badge"
+            >Incluye salsa de piña, queso rayado y tártara de la casa</span
+          >
+          <div
+            class="category-note"
+            style="
+              border-color: var(--orange);
+              color: rgba(255, 107, 0, 0.85);
+              background: rgba(255, 107, 0, 0.06);
+            "
+          >
+            ¡Perfecta para compartir! No te quedes con las ganas...
+          </div>
+        </div>
+
+        <div class="products-grid">
+          <!-- Picada Original -->
+          <article class="product-card">
+            <div class="product-image-wrapper">
+              <img
+                src="images/productos/picadas%20al%20carbon/picada%20original.webp"
+                alt="Picada Original - Gustavo Burger"
+                class="product-image"
+                loading="lazy"
+                width="600"
+                height="400">
+            </div>
+            <div class="product-info">
+              <h2 class="product-name">Picada Original</h2>
+              <p class="product-description">
+                Carne picada, filete de pollo, salchicha americana, chorizo
+                artesanal, chicharrón, maíz, queso mozarela gratinado y
+                tocineta.
+              </p>
+              <span class="product-price glow-white">$50.000</span>
+            </div>
+          </article>
+
+          <!-- Picada Especial -->
+          <article class="product-card">
+            <div class="product-image-wrapper">
+              <img
+                src="images/productos/picadas%20al%20carbon/picada%20especial.webp"
+                alt="Picada Especial - Gustavo Burger"
+                class="product-image"
+                loading="lazy"
+                width="600"
+                height="400">
+            </div>
+            <div class="product-info">
+              <h2 class="product-name">Picada Especial</h2>
+              <p class="product-description">
+                Costilla, pernil mixto, chorizo artesanal, lomo de cerdo, rica
+                papa amarilla y papa francesa.
+              </p>
+              <span class="product-price glow-white">$60.000</span>
+            </div>
+          </article>
+
+          <!-- Picada Gustavo Burguer -->
+          <article
+            class="product-card"
+            style="border-color: rgba(255, 107, 0, 0.45)"
+          >
+            <div class="product-image-wrapper">
+              <img
+                src="images/productos/picadas%20al%20carbon/picada-gustavo-burger.webp"
+                alt="Picada Gustavo Burger - Gustavo Burger"
+                class="product-image"
+                loading="lazy"
+                width="600"
+                height="400">
+            </div>
+            <div class="product-info">
+              <h2
+                class="product-name"
+                style="color: var(--orange); text-shadow: var(--glow-orange)"
+              >
+                Picada Gustavo Burguer
+              </h2>
+              <p class="product-description">
+                Chata, pernil, mixta, costilla, lomo de cerdo, chorizo
+                artesanal, salchicha americana, rellena, papa amarilla y papa
+                francesa.
+              </p>
+              <span
+                class="product-price"
+                style="color: var(--orange); text-shadow: var(--glow-orange)"
+                >$70.000</span
+              >
+            </div>
+          </article>
+        </div>
+        <!-- /picadas grid -->
+      </section>
+      <!-- /picadas -->
+
+      <!-- ===== TAB 4: PARRILLA GUSTAVO BURGER ===== -->
+      <section
+        id="panel-parrilla"
+        class="tab-panel"
+        role="tabpanel"
+        aria-labelledby="tab-parrilla"
+      >
+        <div style="margin-bottom: 1.2rem">
+          <h1 class="category-title neon-title glow-pink">Parrilla</h1>
+          <span class="category-badge"
+            >Incluye salsa de piña, queso rayado y tártara de la casa</span
+          >
+        </div>
+
+        <div class="products-grid">
+          <!-- Chata al Carbón -->
+          <article class="product-card">
+            <div class="product-image-wrapper">
+              <img
+                src="images/productos/parrilla/chata%20al%20carbon.webp"
+                alt="Chata al Carbón - Gustavo Burger"
+                class="product-image"
+                loading="lazy"
+                width="600"
+                height="400">
+            </div>
+            <div class="product-info">
+              <h2 class="product-name">Chata al Carbón</h2>
+              <p class="product-description">
+                Acompañada de papa francesa, ensalada fresca y chorizo
+                artesanal.
+              </p>
+              <span class="product-price glow-white">$35.000</span>
+            </div>
+          </article>
+
+          <!-- Costilla BBQ -->
+          <article class="product-card">
+            <div class="product-image-wrapper">
+              <img
+                src="images/productos/parrilla/costillas%20bbq.webp"
+                alt="Costilla BBQ - Gustavo Burger"
+                class="product-image"
+                loading="lazy"
+                width="600"
+                height="400">
+            </div>
+            <div class="product-info">
+              <h2 class="product-name">Costilla BBQ</h2>
+              <p class="product-description">
+                Costilla bañada en salsa BBQ, acompañada de chorizo artesanal y
+                papa francesa.
+              </p>
+              <span class="product-price glow-white">$35.000</span>
+            </div>
+          </article>
+
+          <!-- Alitas BBQ y Miel Mostaza -->
+          <article class="product-card">
+            <div class="product-image-wrapper">
+              <img
+                src="images/productos/parrilla/alitas%20bbq%20miel%20mostaza.webp"
+                alt="Alitas BBQ y Miel Mostaza - Gustavo Burger"
+                class="product-image"
+                loading="lazy"
+                width="600"
+                height="400">
+            </div>
+            <div class="product-info">
+              <h2 class="product-name">Alitas BBQ y Miel Mostaza</h2>
+              <p class="product-description">
+                Alitas empanizadas en salsa BBQ y miel mostaza, acompañadas de
+                papa francesa.
+              </p>
+              <span class="product-price glow-white">$35.000</span>
+            </div>
+          </article>
+
+          <!-- Pernil Mixto -->
+          <article class="product-card">
+            <div class="product-image-wrapper">
+              <img
+                src="images/productos/parrilla/pernil%20mixto.webp"
+                alt="Pernil Mixto - Gustavo Burger"
+                class="product-image"
+                loading="lazy"
+                width="600"
+                height="400">
+            </div>
+            <div class="product-info">
+              <h2 class="product-name">Pernil Mixto</h2>
+              <p class="product-description">
+                Pernil mixto apanado con chorizo artesanal, acompañado de
+                ensalada fresca y papa francesa.
+              </p>
+              <span class="product-price glow-white">$22.000</span>
+            </div>
+          </article>
+
+          <!-- Filete de Pechuga -->
+          <article class="product-card">
+            <div class="product-image-wrapper">
+              <img
+                src="images/productos/parrilla/filete%20de%20pechuga.webp"
+                alt="Filete de Pechuga - Gustavo Burger"
+                class="product-image"
+                loading="lazy"
+                width="600"
+                height="400">
+            </div>
+            <div class="product-info">
+              <h2 class="product-name">Filete de Pechuga</h2>
+              <p class="product-description">
+                Filete de pechuga a la plancha con chorizo artesanal, acompañado
+                de ensalada fresca y papa francesa.
+              </p>
+              <span class="product-price glow-white">$22.000</span>
+            </div>
+          </article>
+
+          <!-- Pechuga a la Plancha -->
+          <article class="product-card">
+            <div class="product-image-wrapper">
+              <img
+                src="images/productos/parrilla/pechuga%20plancha.webp"
+                alt="Pechuga a la Plancha - Gustavo Burger"
+                class="product-image"
+                loading="lazy"
+                width="600"
+                height="400">
+            </div>
+            <div class="product-info">
+              <h2 class="product-name">Pechuga a la Plancha</h2>
+              <p class="product-description">
+                Pechuga (450g) asada, acompañada de chorizo artesanal, ensalada
+                fresca y papa francesa.
+              </p>
+              <span class="product-price glow-white">$28.000</span>
+            </div>
+          </article>
+
+          <!-- Pechuga Ranchera -->
+          <article
+            class="product-card"
+            style="border-color: rgba(255, 0, 128, 0.45)"
+          >
+            <div class="product-image-wrapper">
+              <img
+                src="images/productos/parrilla/pechuga%20ranchera.webp"
+                alt="Pechuga Ranchera - Gustavo Burger"
+                class="product-image"
+                loading="lazy"
+                width="600"
+                height="400">
+            </div>
+            <div class="product-info">
+              <h2
+                class="product-name"
+                style="color: var(--pink); text-shadow: var(--glow-pink)"
+              >
+                Pechuga Ranchera
+              </h2>
+              <p class="product-description">
+                Pechuga asada con queso mozarela gratinado y tocineta,
+                acompañada de papa amarilla y ensalada fresca.
+              </p>
+              <span
+                class="product-price"
+                style="color: var(--pink); text-shadow: var(--glow-pink)"
+                >$35.000</span
+              >
+            </div>
+          </article>
+        </div>
+        <!-- /parrilla grid -->
+
+        <p
+          style="
+            font-family: &quot;Bebas Neue&quot;, cursive;
+            font-size: 1.1rem;
+            letter-spacing: 0.12em;
+            color: rgba(255, 255, 255, 0.35);
+            margin-top: 1.5rem;
+            text-align: center;
+          "
+        >
+          "SABOR QUE CONQUISTA DESDE EL PRIMER MORDISCO."
+        </p>
+      </section>
+      <!-- /parrilla -->
+
+      <!-- ===== TAB 5: SALCHI & CHORI PAPAS ===== -->
+      <section
+        id="panel-salchi"
+        class="tab-panel"
+        role="tabpanel"
+        aria-labelledby="tab-salchi"
+      >
+        <div style="margin-bottom: 1.2rem">
+          <h1 class="category-title neon-title glow-yellow">
+            Salchi &amp; Chori Papas
+          </h1>
+          <span class="category-badge"
+            >Incluye salsa de piña, queso rayado y tártara de la casa</span
+          >
+          <div class="category-note">
+            <strong>Salchicha y chorizo artesanal americano</strong>
+          </div>
+        </div>
+
+        <!-- Básicas -->
+        <p
+          style="
+            font-family: &quot;Bebas Neue&quot;, cursive;
+            font-size: 0.95rem;
+            letter-spacing: 0.2em;
+            color: rgba(255, 255, 255, 0.4);
+            margin-bottom: 0.6rem;
+          "
+        >
+          — BÁSICAS —
+        </p>
+
+        <div class="products-grid" style="margin-bottom: 1rem">
+          <!-- Salchipapa -->
+          <article class="product-card">
+            <div class="product-image-wrapper">
+              <img
+                src="images/productos/salchi%20y%20chori%20papas/salchipapa.webp"
+                alt="Salchipapa - Gustavo Burger"
+                class="product-image"
+                loading="lazy"
+                width="600"
+                height="400">
+            </div>
+            <div class="product-info">
+              <h2 class="product-name">Salchipapa</h2>
+              <p class="product-description">Papa francesa con salchicha americana.</p>
+              <span class="product-price glow-white">$17.000</span>
+            </div>
+          </article>
+
+          <!-- Choripapa -->
+          <article class="product-card">
+            <div class="product-image-wrapper">
+              <img
+                src="images/productos/salchi%20y%20chori%20papas/choripapa.webp"
+                alt="Choripapa - Gustavo Burger"
+                class="product-image"
+                loading="lazy"
+                width="600"
+                height="400">
+            </div>
+            <div class="product-info">
+              <h2 class="product-name">Choripapa</h2>
+              <p class="product-description">Papa francesa con chorizo artesanal.</p>
+              <span class="product-price glow-white">$17.000</span>
+            </div>
+          </article>
+
+          <!-- Chorimixto -->
+          <article class="product-card">
+            <div class="product-image-wrapper">
+              <img
+                src="images/productos/salchi%20y%20chori%20papas/chorimixto.webp"
+                alt="Chorimixto - Gustavo Burger"
+                class="product-image"
+                loading="lazy"
+                width="600"
+                height="400">
+            </div>
+            <div class="product-info">
+              <h2 class="product-name">Chorimixto</h2>
+              <p class="product-description">
+                Papa francesa con salchicha americana y chorizo artesanal.
+              </p>
+              <span class="product-price glow-white">$21.000</span>
+            </div>
+          </article>
+        </div>
+
+        <!-- Especiales -->
+        <p
+          style="
+            font-family: &quot;Bebas Neue&quot;, cursive;
+            font-size: 0.95rem;
+            letter-spacing: 0.2em;
+            color: rgba(255, 255, 255, 0.4);
+            margin-bottom: 0.6rem;
+          "
+        >
+          — ESPECIALES —
+        </p>
+
+        <div class="products-grid">
+          <!-- Salchipapa Especial -->
+          <article class="product-card">
+            <div class="product-image-wrapper">
+              <img
+                src="images/productos/salchi%20y%20chori%20papas/salchipapa%20especial.webp"
+                alt="Salchipapa Especial - Gustavo Burger"
+                class="product-image"
+                loading="lazy"
+                width="600"
+                height="400">
+            </div>
+            <div class="product-info">
+              <h2 class="product-name">Salchipapa Especial</h2>
+              <p class="product-description">
+                Papa francesa, salchicha americana, papa Ripi, queso rallado,
+                salsa, pollo desmechado, queso mozarela gratinado.
+              </p>
+              <span class="product-price glow-white">$28.000</span>
+            </div>
+          </article>
+
+          <!-- Choripapa Especial -->
+          <article class="product-card">
+            <div class="product-image-wrapper">
+              <img
+                src="images/productos/salchi%20y%20chori%20papas/choripapa%20especial.webp"
+                alt="Choripapa Especial - Gustavo Burger"
+                class="product-image"
+                loading="lazy"
+                width="600"
+                height="400">
+            </div>
+            <div class="product-info">
+              <h2 class="product-name">Choripapa Especial</h2>
+              <p class="product-description">
+                Papa francesa, chorizo artesanal, papa Ripi, queso rallado,
+                salsa, pollo desmechado, queso mozarela gratinado.
+              </p>
+              <span class="product-price glow-white">$28.000</span>
+            </div>
+          </article>
+
+          <!-- Papas Locas -->
+          <article
+            class="product-card"
+            style="border-color: rgba(255, 107, 0, 0.45)"
+          >
+            <div class="product-image-wrapper">
+              <img
+                src="images/productos/salchi%20y%20chori%20papas/papas%20locas.webp"
+                alt="Papas Locas - Gustavo Burger"
+                class="product-image"
+                loading="lazy"
+                width="600"
+                height="400">
+            </div>
+            <div class="product-info">
+              <h2
+                class="product-name"
+                style="color: var(--orange); text-shadow: var(--glow-orange)"
+              >
+                Papas Locas
+              </h2>
+              <p class="product-description">
+                Papa francesa, carne picada, pollo desmechado, jamón, queso
+                mozarela, chorizo artesanal y rica salsa.
+              </p>
+              <span
+                class="product-price"
+                style="color: var(--orange); text-shadow: var(--glow-orange)"
+                >$38.000</span
+              >
+            </div>
+          </article>
+        </div>
+        <!-- /salchi grid -->
+
+        <p
+          style="
+            font-family: &quot;Bebas Neue&quot;, cursive;
+            font-size: 1.05rem;
+            letter-spacing: 0.12em;
+            color: rgba(255, 255, 255, 0.35);
+            margin-top: 1.5rem;
+            text-align: center;
+          "
+        >
+          "AQUÍ LAS PAPAS NO SON NORMALES, SON CRIMINALES."
+        </p>
+      </section>
+      <!-- /salchi -->
+
+      <!-- ===== TAB 6: DESGRANADOS ===== -->
+      <section
+        id="panel-desgranados"
+        class="tab-panel"
+        role="tabpanel"
+        aria-labelledby="tab-desgranados"
+      >
+        <div style="margin-bottom: 1.2rem">
+          <h1 class="category-title neon-title glow-cyan">Desgranados</h1>
+          <span class="category-badge"
+            >Incluye salsa de piña, queso rayado y tártara de la casa</span
+          >
+        </div>
+
+        <div class="products-grid">
+          <!-- Desgranado de Pollo -->
+          <article class="product-card">
+            <div class="product-image-wrapper">
+              <img
+                src="images/productos/desgranados/desgrando%20pollo.webp"
+                alt="Desgranado de Pollo - Gustavo Burger"
+                class="product-image"
+                loading="lazy"
+                width="600"
+                height="400">
+            </div>
+            <div class="product-info">
+              <h2 class="product-name">Desgranado de Pollo</h2>
+              <p class="product-description">
+                Maíz dulce con pollo desmechado y cebolla grille, nuestra rica
+                salsa y queso mozzarella gratinado.
+              </p>
+              <span class="product-price glow-white">$26.000</span>
+            </div>
+          </article>
+
+          <!-- Desgranado de Carne -->
+          <article class="product-card">
+            <div class="product-image-wrapper">
+              <img
+                src="images/productos/desgranados/desgranado%20carne.webp"
+                alt="Desgranado de Carne - Gustavo Burger"
+                class="product-image"
+                loading="lazy"
+                width="600"
+                height="400">
+            </div>
+            <div class="product-info">
+              <h2 class="product-name">Desgranado de Carne</h2>
+              <p class="product-description">
+                Maíz dulce con carne picada y cebolla grille, rica salsa de la
+                casa y queso mozzarella gratinado.
+              </p>
+              <span class="product-price glow-white">$26.000</span>
+            </div>
+          </article>
+
+          <!-- Desgranado Especial -->
+          <article
+            class="product-card"
+            style="border-color: rgba(0, 240, 255, 0.4)"
+          >
+            <div class="product-image-wrapper">
+              <img
+                src="images/productos/desgranados/desgranado%20especial.webp"
+                alt="Desgranado Especial - Gustavo Burger"
+                class="product-image"
+                loading="lazy"
+                width="600"
+                height="400">
+            </div>
+            <div class="product-info">
+              <h2
+                class="product-name"
+                style="color: var(--cyan); text-shadow: var(--glow-cyan)"
+              >
+                Desgranado Especial
+              </h2>
+              <p class="product-description">
+                Delicioso maíz dulce acompañado de carne picada, pollo
+                desmechado y cebolla grille, bañado con nuestra rica salsa,
+                queso mozzarella gratinado y crujiente tocineta.
+              </p>
+              <span
+                class="product-price"
+                style="color: var(--cyan); text-shadow: var(--glow-cyan)"
+                >$30.000</span
+              >
+            </div>
+          </article>
+        </div>
+        <!-- /desgranados grid -->
+
+        <p
+          style="
+            font-family: &quot;Bebas Neue&quot;, cursive;
+            font-size: 1.05rem;
+            letter-spacing: 0.12em;
+            color: rgba(255, 255, 255, 0.35);
+            margin-top: 1.5rem;
+            text-align: center;
+          "
+        >
+          "DESGRANADO QUE SE RESPETA, BIEN CARGADO Y BIEN GRATINADO."
+        </p>
+      </section>
+      <!-- /desgranados -->
+
+      <!-- ===== TAB 7: PATACONES ===== -->
+      <section
+        id="panel-patacones"
+        class="tab-panel"
+        role="tabpanel"
+        aria-labelledby="tab-patacones"
+      >
+        <div style="margin-bottom: 1.2rem">
+          <h1 class="category-title neon-title glow-orange">Patacones</h1>
+          <span class="category-badge"
+            >Incluye salsa de piña, queso rayado y tártara de la casa</span
+          >
+          <div
+            class="category-note"
+            style="
+              border-color: var(--orange);
+              color: rgba(255, 107, 0, 0.85);
+              background: rgba(255, 107, 0, 0.06);
+            "
+          >
+            Base: <strong>Plátano Maduro</strong>
+          </div>
+        </div>
+
+        <div class="products-grid">
+          <!-- Patacón de Carne -->
+          <article class="product-card">
+            <div class="product-image-wrapper">
+              <img
+                src="images/productos/patacones/patacon%20carne.webp"
+                alt="Patacón de Carne - Gustavo Burger"
+                class="product-image"
+                loading="lazy"
+                width="600"
+                height="400">
+            </div>
+            <div class="product-info">
+              <h2 class="product-name">Patacón de Carne</h2>
+              <p class="product-description">
+                Patacón Maduro, Carne Picada, Chorizo Artesanal, Cebolla grille,
+                Queso Mozarela gratinado.
+              </p>
+              <span class="product-price glow-white">$28.000</span>
+            </div>
+          </article>
+
+          <!-- Patacón de Pollo -->
+          <article class="product-card">
+            <div class="product-image-wrapper">
+              <img
+                src="images/productos/patacones/patacon%20pollo.webp"
+                alt="Patacón de Pollo - Gustavo Burger"
+                class="product-image"
+                loading="lazy"
+                width="600"
+                height="400">
+            </div>
+            <div class="product-info">
+              <h2 class="product-name">Patacón de Pollo</h2>
+              <p class="product-description">
+                Patacón Maduro, Pollo desmechado, Chorizo Artesanal, Cebolla
+                grille, Queso Mozarela gratinado.
+              </p>
+              <span class="product-price glow-white">$28.000</span>
+            </div>
+          </article>
+
+          <!-- Patacón Especial -->
+          <article class="product-card">
+            <div class="product-image-wrapper">
+              <img
+                src="images/productos/patacones/patacon%20especial.webp"
+                alt="Patacón Especial - Gustavo Burger"
+                class="product-image"
+                loading="lazy"
+                width="600"
+                height="400">
+            </div>
+            <div class="product-info">
+              <h2 class="product-name">Patacón Especial</h2>
+              <p class="product-description">
+                Patacón Maduro, Carne Picada, Pollo desmechado, Chorizo
+                artesanal, Cebolla grille, Queso Mozarela gratinado.
+              </p>
+              <span class="product-price glow-white">$30.000</span>
+            </div>
+          </article>
+
+          <!-- Patacón Super Especial -->
+          <article
+            class="product-card"
+            style="border-color: rgba(255, 107, 0, 0.45)"
+          >
+            <div class="product-image-wrapper">
+              <img
+                src="images/productos/patacones/patacon super especial.webp"
+                alt="Patacón Super Especial - Gustavo Burger"
+                class="product-image"
+                loading="lazy"
+                width="600"
+                height="400">
+            </div>
+            <div class="product-info">
+              <h2
+                class="product-name"
+                style="color: var(--orange); text-shadow: var(--glow-orange)"
+              >
+                Patacón Super Especial
+              </h2>
+              <p class="product-description">
+                Patacón Maduro, Carne Picada, Pollo desmechado, Chorizo
+                Artesanal, Cebolla grille, Maíz Dulce, Queso Mozarela gratinado
+                y tocineta.
+              </p>
+              <span
+                class="product-price"
+                style="color: var(--orange); text-shadow: var(--glow-orange)"
+                >$35.000</span
+              >
+            </div>
+          </article>
+        </div>
+        <!-- /patacones grid -->
+
+        <p
+          style="
+            font-family: &quot;Bebas Neue&quot;, cursive;
+            font-size: 1.05rem;
+            letter-spacing: 0.12em;
+            color: rgba(255, 255, 255, 0.35);
+            margin-top: 1.5rem;
+            text-align: center;
+          "
+        >
+          "NO TE QUEDES CON LAS GANAS... ¡HAZ TU PEDIDO AHORA!"
+        </p>
+      </section>
+      <!-- /patacones -->
+    </main>
+
+    <!-- ===== FOOTER ===== -->
+    <footer class="site-footer">
+      © 2025 Gustavo Burger El Original &nbsp;·&nbsp; Cocina Oculta
+      &nbsp;·&nbsp;
+      <a href="tel:3189468984" style="color: inherit">3189468984</a>
+    </footer>
+
+    <!-- ===== BOTÓN FLOTANTE WHATSAPP ===== -->
+    <a
+      href="https://wa.me/573189468984"
+      target="_blank"
+      rel="noopener noreferrer"
+      class="whatsapp-fab"
+      aria-label="Hacer pedido por WhatsApp"
+    >
+      <svg viewBox="0 0 24 24" aria-hidden="true">
+        <path
+          d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"
+        />
+        <path
+          d="M12 0C5.373 0 0 5.373 0 12c0 2.125.558 4.121 1.532 5.853L.057 23.057a.75.75 0 00.918.918l5.204-1.475A11.952 11.952 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22c-1.891 0-3.667-.523-5.188-1.432l-.372-.224-3.862 1.095 1.095-3.861-.224-.372A9.956 9.956 0 012 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z"
+        />
+      </svg>
     </a>
-    <a href="tel:3189468984" class="header-phone" aria-label="Llamar">
-      📞 3189468984
-    </a>
-  </header>
 
-  <!-- ====================== TABS NAV ====================== -->
-  <nav class="tabs-wrapper" aria-label="Categorías del menú">
-    <div class="tabs-scroll" role="tablist">
-      <button class="tab-btn active" role="tab" aria-selected="true"
-              aria-controls="panel-hamburguesas" data-tab="hamburguesas">
-        🍔 Hamburguesas
-      </button>
-      <button class="tab-btn" role="tab" aria-selected="false"
-              aria-controls="panel-perros" data-tab="perros">
-        🌭 Perros Calientes
-      </button>
-      <button class="tab-btn" role="tab" aria-selected="false"
-              aria-controls="panel-picadas" data-tab="picadas">
-        🔥 Picadas al Carbón
-      </button>
-      <button class="tab-btn" role="tab" aria-selected="false"
-              aria-controls="panel-parrilla" data-tab="parrilla">
-        🥩 Parrilla
-      </button>
-      <button class="tab-btn" role="tab" aria-selected="false"
-              aria-controls="panel-salchi" data-tab="salchi">
-        🍟 Salchi &amp; Chori
-      </button>
-      <button class="tab-btn" role="tab" aria-selected="false"
-              aria-controls="panel-desgranados" data-tab="desgranados">
-        🌽 Desgranados
-      </button>
-      <button class="tab-btn" role="tab" aria-selected="false"
-              aria-controls="panel-patacones" data-tab="patacones">
-        🍌 Patacones
-      </button>
-    </div>
-  </nav>
-
-  <!-- ====================== CONTENIDO DE TABS ====================== -->
-  <main>
-
-    <!-- ===== TAB 1: HAMBURGUESAS ===== -->
-    <section id="panel-hamburguesas" class="tab-panel active"
-             role="tabpanel" aria-labelledby="tab-hamburguesas">
-
-      <div class="tab-panel-header" style="margin-bottom:1.2rem;">
-        <h1 class="category-title neon-title glow-yellow">Hamburguesas</h1>
-        <span class="category-badge">Incluye papa francesa, salsa de piña, queso rayado y tártara de la casa</span>
-
-        <!-- Sub-sección: Sencillas -->
-        <hr class="neon-divider" />
-        <p style="font-family:'Bebas Neue',cursive; font-size:1rem; letter-spacing:.2em;
-                  color:rgba(255,255,255,.4); margin-bottom:.6rem;">— SENCILLAS —</p>
-      </div>
-
-      <div class="products-grid">
-
-        <!-- Clásica -->
-        <article class="product-card">
-          <div class="product-info">
-            <h2 class="product-name">Clásica</h2>
-            <p class="product-desc">Carne de res, cebolla grille, queso mozzarella, lechuga, tomate, arepa y nuestra rica salsa.</p>
-          </div>
-          <span class="product-price glow-white">$18.000</span>
-        </article>
-
-        <!-- Clásica Pollo -->
-        <article class="product-card">
-          <div class="product-info">
-            <h2 class="product-name">Clásica Pollo</h2>
-            <p class="product-desc">Filete de Pollo o desmechado, cebolla grille, queso mozzarella, lechuga, tomate, arepa y nuestra rica salsa.</p>
-          </div>
-          <span class="product-price glow-white">$20.000</span>
-        </article>
-
-      </div><!-- /sencillas grid -->
-
-      <!-- Sub-sección: Especiales -->
-      <p style="font-family:'Bebas Neue',cursive; font-size:1rem; letter-spacing:.2em;
-                color:rgba(255,255,255,.4); margin: 1.2rem 0 .6rem;">— ESPECIALES —</p>
-
-      <div class="products-grid">
-
-        <!-- Especial -->
-        <article class="product-card">
-          <div class="product-info">
-            <h2 class="product-name">Especial</h2>
-            <p class="product-desc">Carne de res, pollo desmechado, arepa, tocineta, queso mozzarella, lechuga, tomate, cebolla grille y nuestra rica salsa.</p>
-          </div>
-          <span class="product-price glow-white">$23.000</span>
-        </article>
-
-        <!-- De la Casa -->
-        <article class="product-card">
-          <div class="product-info">
-            <h2 class="product-name">De la Casa</h2>
-            <p class="product-desc">Carne de res, pollo desmechado, huevo frito, tocineta, lechuga, tomate, cebolla grille con queso, rico chorizo artesanal en la papa francesa y nuestra rica salsa.</p>
-          </div>
-          <span class="product-price glow-white">$28.000</span>
-        </article>
-
-      </div><!-- /especiales grid -->
-
-      <!-- Sub-sección: Las Supremas -->
-      <p style="font-family:'Bebas Neue',cursive; font-size:1rem; letter-spacing:.2em;
-                color:rgba(255,255,255,.4); margin: 1.2rem 0 .6rem;">— LAS SUPREMAS —</p>
-
-      <div class="products-grid">
-
-        <!-- Doble Carne -->
-        <article class="product-card">
-          <div class="product-info">
-            <h2 class="product-name">Doble Carne</h2>
-            <p class="product-desc">Dos carnes de res, cebolla grille, queso mozzarella, tocineta, pollo desmechado, lechuga, tomate y nuestra rica salsa.</p>
-          </div>
-          <span class="product-price glow-white">$30.000</span>
-        </article>
-
-        <!-- Mixta Especial -->
-        <article class="product-card">
-          <div class="product-info">
-            <h2 class="product-name">Mixta Especial</h2>
-            <p class="product-desc">Carne de res, filete de pollo, tocineta, cebolla grille, queso mozarela, lechuga, tomate y nuestra rica salsa.</p>
-          </div>
-          <span class="product-price glow-white">$30.000</span>
-        </article>
-
-        <!-- Artesanal -->
-        <article class="product-card">
-          <div class="product-info">
-            <h2 class="product-name">Artesanal</h2>
-            <p class="product-desc">Carne de res, pollo desmechado, chorizo artesanal, maduro, queso mozarela, lechuga, tomate, cebolla grille y nuestra rica salsa.</p>
-          </div>
-          <span class="product-price glow-white">$30.000</span>
-        </article>
-
-        <!-- Super Especial -->
-        <article class="product-card">
-          <div class="product-info">
-            <h2 class="product-name">Super Especial</h2>
-            <p class="product-desc">Doble carne de res, filete de pollo, tocineta, queso mozarela, lechuga, tomate, cebolla grille y nuestra rica salsa.</p>
-          </div>
-          <span class="product-price glow-white">$33.000</span>
-        </article>
-
-        <!-- Mega Burger -->
-        <article class="product-card" style="border-color:rgba(255,107,0,.45);">
-          <div class="product-info">
-            <h2 class="product-name" style="color:var(--orange); text-shadow:var(--glow-orange);">Mega Burger</h2>
-            <p class="product-desc">Dos carnes de res, dos filetes de pollo, queso mozarela, tocineta, chorizo Artesanal, lechuga, tomate, cebolla grille y nuestra rica salsa.</p>
-          </div>
-          <span class="product-price" style="color:var(--orange); text-shadow:var(--glow-orange);">$40.000</span>
-        </article>
-
-      </div><!-- /supremas grid -->
-
-    </section><!-- /hamburguesas -->
-
-
-    <!-- ===== TAB 2: PERROS CALIENTES ===== -->
-    <section id="panel-perros" class="tab-panel"
-             role="tabpanel" aria-labelledby="tab-perros">
-
-      <div style="margin-bottom:1.2rem;">
-        <h1 class="category-title neon-title glow-cyan">Perros Calientes</h1>
-        <span class="category-badge">Incluye papa francesa, salsa de piña, queso rayado y tártara de la casa</span>
-        <div class="category-note">
-          Todos nuestros perros son preparados con: <strong>salchicha americana, cebolla grille y queso mozarela gratinado</strong> y nuestras ricas salsas.
-        </div>
-      </div>
-
-      <div class="products-grid">
-
-        <!-- Perro Clásico -->
-        <article class="product-card">
-          <div class="product-info">
-            <h2 class="product-name">Perro Clásico</h2>
-            <p class="product-desc">Lechuga, tomate, papa Ripi.</p>
-          </div>
-          <span class="product-price glow-white">$16.000</span>
-        </article>
-
-        <!-- Perro Especial -->
-        <article class="product-card">
-          <div class="product-info">
-            <h2 class="product-name">Perro Especial</h2>
-            <p class="product-desc">Lechuga, tomate, papa Ripi, tocineta.</p>
-          </div>
-          <span class="product-price glow-white">$19.000</span>
-        </article>
-
-        <!-- Perro Americano -->
-        <article class="product-card">
-          <div class="product-info">
-            <h2 class="product-name">Perro Americano</h2>
-            <p class="product-desc">Lechuga, tomate, papa Ripi, pollo desmechado.</p>
-          </div>
-          <span class="product-price glow-white">$23.000</span>
-        </article>
-
-        <!-- Perro Loco Americano -->
-        <article class="product-card">
-          <div class="product-info">
-            <h2 class="product-name">Perro Loco Americano</h2>
-            <p class="product-desc">Carne picada, pollo desmechado.</p>
-          </div>
-          <span class="product-price glow-white">$25.000</span>
-        </article>
-
-        <!-- Choriperro -->
-        <article class="product-card">
-          <div class="product-info">
-            <h2 class="product-name">Choriperro</h2>
-            <p class="product-desc">Chorizo picado, cebolla grille, lechuga, tomate, papa ripio, tártara de la casa y queso mozzarella gratinado.</p>
-          </div>
-          <span class="product-price glow-white">$ Consultar</span>
-        </article>
-
-        <!-- Mega Perro Gustavo Burguer -->
-        <article class="product-card" style="border-color:rgba(255,107,0,.45);">
-          <div class="product-info">
-            <h2 class="product-name" style="color:var(--orange); text-shadow:var(--glow-orange);">Mega Perro Gustavo Burguer</h2>
-            <p class="product-desc">Dos salchichas americanas, carne picada, pollo desmechado, maíz y tocineta.</p>
-          </div>
-          <span class="product-price" style="color:var(--orange); text-shadow:var(--glow-orange);">$40.000</span>
-        </article>
-
-      </div><!-- /perros grid -->
-
-    </section><!-- /perros -->
-
-
-    <!-- ===== TAB 3: PICADAS AL CARBÓN ===== -->
-    <section id="panel-picadas" class="tab-panel"
-             role="tabpanel" aria-labelledby="tab-picadas">
-
-      <div style="margin-bottom:1.2rem;">
-        <h1 class="category-title neon-title" style="color:var(--orange);text-shadow:var(--glow-orange);">Picadas al Carbón</h1>
-        <span class="category-badge">Incluye salsa de piña, queso rayado y tártara de la casa</span>
-        <div class="category-note" style="border-color:var(--orange); color:rgba(255,107,0,.85); background:rgba(255,107,0,.06);">
-          ¡Perfecta para compartir! No te quedes con las ganas...
-        </div>
-      </div>
-
-      <div class="products-grid">
-
-        <!-- Picada Original -->
-        <article class="product-card">
-          <div class="product-info">
-            <h2 class="product-name">Picada Original</h2>
-            <p class="product-desc">Carne picada, filete de pollo, salchicha americana, chorizo artesanal, chicharrón, maíz, queso mozarela gratinado y tocineta.</p>
-          </div>
-          <span class="product-price glow-white">$50.000</span>
-        </article>
-
-        <!-- Picada Especial -->
-        <article class="product-card">
-          <div class="product-info">
-            <h2 class="product-name">Picada Especial</h2>
-            <p class="product-desc">Costilla, pernil mixto, chorizo artesanal, lomo de cerdo, rica papa amarilla y papa francesa.</p>
-          </div>
-          <span class="product-price glow-white">$60.000</span>
-        </article>
-
-        <!-- Picada Gustavo Burguer -->
-        <article class="product-card" style="border-color:rgba(255,107,0,.45);">
-          <div class="product-info">
-            <h2 class="product-name" style="color:var(--orange); text-shadow:var(--glow-orange);">Picada Gustavo Burguer</h2>
-            <p class="product-desc">Chata, pernil, mixta, costilla, lomo de cerdo, chorizo artesanal, salchicha americana, rellena, papa amarilla y papa francesa.</p>
-          </div>
-          <span class="product-price" style="color:var(--orange); text-shadow:var(--glow-orange);">$70.000</span>
-        </article>
-
-      </div><!-- /picadas grid -->
-
-    </section><!-- /picadas -->
-
-
-    <!-- ===== TAB 4: PARRILLA GUSTAVO BURGER ===== -->
-    <section id="panel-parrilla" class="tab-panel"
-             role="tabpanel" aria-labelledby="tab-parrilla">
-
-      <div style="margin-bottom:1.2rem;">
-        <h1 class="category-title neon-title glow-pink">Parrilla</h1>
-        <span class="category-badge">Incluye salsa de piña, queso rayado y tártara de la casa</span>
-      </div>
-
-      <div class="products-grid">
-
-        <!-- Chata al Carbón -->
-        <article class="product-card">
-          <div class="product-info">
-            <h2 class="product-name">Chata al Carbón</h2>
-            <p class="product-desc">Acompañada de papa francesa, ensalada fresca y chorizo artesanal.</p>
-          </div>
-          <span class="product-price glow-white">$35.000</span>
-        </article>
-
-        <!-- Costilla BBQ -->
-        <article class="product-card">
-          <div class="product-info">
-            <h2 class="product-name">Costilla BBQ</h2>
-            <p class="product-desc">Costilla bañada en salsa BBQ, acompañada de chorizo artesanal y papa francesa.</p>
-          </div>
-          <span class="product-price glow-white">$35.000</span>
-        </article>
-
-        <!-- Alitas BBQ y Miel Mostaza -->
-        <article class="product-card">
-          <div class="product-info">
-            <h2 class="product-name">Alitas BBQ y Miel Mostaza</h2>
-            <p class="product-desc">Alitas empanizadas en salsa BBQ y miel mostaza, acompañadas de papa francesa.</p>
-          </div>
-          <span class="product-price glow-white">$35.000</span>
-        </article>
-
-        <!-- Pernil Mixto -->
-        <article class="product-card">
-          <div class="product-info">
-            <h2 class="product-name">Pernil Mixto</h2>
-            <p class="product-desc">Pernil mixto apanado con chorizo artesanal, acompañado de ensalada fresca y papa francesa.</p>
-          </div>
-          <span class="product-price glow-white">$22.000</span>
-        </article>
-
-        <!-- Filete de Pechuga -->
-        <article class="product-card">
-          <div class="product-info">
-            <h2 class="product-name">Filete de Pechuga</h2>
-            <p class="product-desc">Filete de pechuga a la plancha con chorizo artesanal, acompañado de ensalada fresca y papa francesa.</p>
-          </div>
-          <span class="product-price glow-white">$22.000</span>
-        </article>
-
-        <!-- Pechuga a la Plancha -->
-        <article class="product-card">
-          <div class="product-info">
-            <h2 class="product-name">Pechuga a la Plancha</h2>
-            <p class="product-desc">Pechuga (450g) asada, acompañada de chorizo artesanal, ensalada fresca y papa francesa.</p>
-          </div>
-          <span class="product-price glow-white">$28.000</span>
-        </article>
-
-        <!-- Pechuga Ranchera -->
-        <article class="product-card" style="border-color:rgba(255,0,128,.45);">
-          <div class="product-info">
-            <h2 class="product-name" style="color:var(--pink); text-shadow:var(--glow-pink);">Pechuga Ranchera</h2>
-            <p class="product-desc">Pechuga asada con queso mozarela gratinado y tocineta, acompañada de papa amarilla y ensalada fresca.</p>
-          </div>
-          <span class="product-price" style="color:var(--pink); text-shadow:var(--glow-pink);">$35.000</span>
-        </article>
-
-      </div><!-- /parrilla grid -->
-
-      <p style="font-family:'Bebas Neue',cursive; font-size:1.1rem; letter-spacing:.12em;
-                color:rgba(255,255,255,.35); margin-top:1.5rem; text-align:center;">
-        "SABOR QUE CONQUISTA DESDE EL PRIMER MORDISCO."
-      </p>
-
-    </section><!-- /parrilla -->
-
-
-    <!-- ===== TAB 5: SALCHI & CHORI PAPAS ===== -->
-    <section id="panel-salchi" class="tab-panel"
-             role="tabpanel" aria-labelledby="tab-salchi">
-
-      <div style="margin-bottom:1.2rem;">
-        <h1 class="category-title neon-title glow-yellow">Salchi &amp; Chori Papas</h1>
-        <span class="category-badge">Incluye salsa de piña, queso rayado y tártara de la casa</span>
-        <div class="category-note">
-          <strong>Salchicha y chorizo artesanal americano</strong>
-        </div>
-      </div>
-
-      <!-- Básicas (sin descripción extra) -->
-      <p style="font-family:'Bebas Neue',cursive; font-size:.95rem; letter-spacing:.2em;
-                color:rgba(255,255,255,.4); margin-bottom:.6rem;">— BÁSICAS —</p>
-
-      <div class="products-grid" style="margin-bottom:1rem;">
-
-        <!-- Salchipapa -->
-        <article class="product-card">
-          <div class="product-info">
-            <h2 class="product-name">Salchipapa</h2>
-            <p class="product-desc">Papa francesa con salchicha americana.</p>
-          </div>
-          <span class="product-price glow-white">$17.000</span>
-        </article>
-
-        <!-- Choripapa -->
-        <article class="product-card">
-          <div class="product-info">
-            <h2 class="product-name">Choripapa</h2>
-            <p class="product-desc">Papa francesa con chorizo artesanal.</p>
-          </div>
-          <span class="product-price glow-white">$17.000</span>
-        </article>
-
-        <!-- Chorimixto -->
-        <article class="product-card">
-          <div class="product-info">
-            <h2 class="product-name">Chorimixto</h2>
-            <p class="product-desc">Papa francesa con salchicha americana y chorizo artesanal.</p>
-          </div>
-          <span class="product-price glow-white">$21.000</span>
-        </article>
-
-      </div>
-
-      <!-- Especiales -->
-      <p style="font-family:'Bebas Neue',cursive; font-size:.95rem; letter-spacing:.2em;
-                color:rgba(255,255,255,.4); margin-bottom:.6rem;">— ESPECIALES —</p>
-
-      <div class="products-grid">
-
-        <!-- Salchipapa Especial -->
-        <article class="product-card">
-          <div class="product-info">
-            <h2 class="product-name">Salchipapa Especial</h2>
-            <p class="product-desc">Papa francesa, salchicha americana, papa Ripi, queso rallado, salsa, pollo desmechado, queso mozarela gratinado.</p>
-          </div>
-          <span class="product-price glow-white">$28.000</span>
-        </article>
-
-        <!-- Choripapa Especial -->
-        <article class="product-card">
-          <div class="product-info">
-            <h2 class="product-name">Choripapa Especial</h2>
-            <p class="product-desc">Papa francesa, chorizo artesanal, papa Ripi, queso rallado, salsa, pollo desmechado, queso mozarela gratinado.</p>
-          </div>
-          <span class="product-price glow-white">$28.000</span>
-        </article>
-
-        <!-- Papas Locas -->
-        <article class="product-card" style="border-color:rgba(255,107,0,.45);">
-          <div class="product-info">
-            <h2 class="product-name" style="color:var(--orange); text-shadow:var(--glow-orange);">Papas Locas</h2>
-            <p class="product-desc">Papa francesa, carne picada, pollo desmechado, jamón, queso mozarela, chorizo artesanal y rica salsa.</p>
-          </div>
-          <span class="product-price" style="color:var(--orange); text-shadow:var(--glow-orange);">$38.000</span>
-        </article>
-
-      </div><!-- /salchi grid -->
-
-      <p style="font-family:'Bebas Neue',cursive; font-size:1.05rem; letter-spacing:.12em;
-                color:rgba(255,255,255,.35); margin-top:1.5rem; text-align:center;">
-        "AQUÍ LAS PAPAS NO SON NORMALES, SON CRIMINALES."
-      </p>
-
-    </section><!-- /salchi -->
-
-
-    <!-- ===== TAB 6: DESGRANADOS ===== -->
-    <section id="panel-desgranados" class="tab-panel"
-             role="tabpanel" aria-labelledby="tab-desgranados">
-
-      <div style="margin-bottom:1.2rem;">
-        <h1 class="category-title neon-title glow-cyan">Desgranados</h1>
-        <span class="category-badge">Incluye salsa de piña, queso rayado y tártara de la casa</span>
-      </div>
-
-      <div class="products-grid">
-
-        <!-- Desgranado de Pollo -->
-        <article class="product-card">
-          <div class="product-info">
-            <h2 class="product-name">Desgranado de Pollo</h2>
-            <p class="product-desc">Maíz dulce con pollo desmechado y cebolla grille, nuestra rica salsa y queso mozzarella gratinado.</p>
-          </div>
-          <span class="product-price glow-white">$26.000</span>
-        </article>
-
-        <!-- Desgranado de Carne -->
-        <article class="product-card">
-          <div class="product-info">
-            <h2 class="product-name">Desgranado de Carne</h2>
-            <p class="product-desc">Maíz dulce con carne picada y cebolla grille, rica salsa de la casa y queso mozzarella gratinado.</p>
-          </div>
-          <span class="product-price glow-white">$26.000</span>
-        </article>
-
-        <!-- Desgranado Especial -->
-        <article class="product-card" style="border-color:rgba(0,240,255,.4);">
-          <div class="product-info">
-            <h2 class="product-name" style="color:var(--cyan); text-shadow:var(--glow-cyan);">Desgranado Especial</h2>
-            <p class="product-desc">Delicioso maíz dulce acompañado de carne picada, pollo desmechado y cebolla grille, bañado con nuestra rica salsa, queso mozzarella gratinado y crujiente tocineta.</p>
-          </div>
-          <span class="product-price" style="color:var(--cyan); text-shadow:var(--glow-cyan);">$30.000</span>
-        </article>
-
-      </div><!-- /desgranados grid -->
-
-      <p style="font-family:'Bebas Neue',cursive; font-size:1.05rem; letter-spacing:.12em;
-                color:rgba(255,255,255,.35); margin-top:1.5rem; text-align:center;">
-        "DESGRANADO QUE SE RESPETA, BIEN CARGADO Y BIEN GRATINADO."
-      </p>
-
-    </section><!-- /desgranados -->
-
-
-    <!-- ===== TAB 7: PATACONES ===== -->
-    <section id="panel-patacones" class="tab-panel"
-             role="tabpanel" aria-labelledby="tab-patacones">
-
-      <div style="margin-bottom:1.2rem;">
-        <h1 class="category-title neon-title glow-orange">Patacones</h1>
-        <span class="category-badge">Incluye salsa de piña, queso rayado y tártara de la casa</span>
-        <div class="category-note" style="border-color:var(--orange); color:rgba(255,107,0,.85); background:rgba(255,107,0,.06);">
-          Base: <strong>Plátano Maduro</strong>
-        </div>
-      </div>
-
-      <div class="products-grid">
-
-        <!-- Patacón de Carne -->
-        <article class="product-card">
-          <div class="product-info">
-            <h2 class="product-name">Patacón de Carne</h2>
-            <p class="product-desc">Patacón Maduro, Carne Picada, Chorizo Artesanal, Cebolla grille, Queso Mozarela gratinado.</p>
-          </div>
-          <span class="product-price glow-white">$28.000</span>
-        </article>
-
-        <!-- Patacón de Pollo -->
-        <article class="product-card">
-          <div class="product-info">
-            <h2 class="product-name">Patacón de Pollo</h2>
-            <p class="product-desc">Patacón Maduro, Pollo desmechado, Chorizo Artesanal, Cebolla grille, Queso Mozarela gratinado.</p>
-          </div>
-          <span class="product-price glow-white">$28.000</span>
-        </article>
-
-        <!-- Patacón Especial -->
-        <article class="product-card">
-          <div class="product-info">
-            <h2 class="product-name">Patacón Especial</h2>
-            <p class="product-desc">Patacón Maduro, Carne Picada, Pollo desmechado, Chorizo artesanal, Cebolla grille, Queso Mozarela gratinado.</p>
-          </div>
-          <span class="product-price glow-white">$30.000</span>
-        </article>
-
-        <!-- Patacón Super Especial -->
-        <article class="product-card" style="border-color:rgba(255,107,0,.45);">
-          <div class="product-info">
-            <h2 class="product-name" style="color:var(--orange); text-shadow:var(--glow-orange);">Patacón Super Especial</h2>
-            <p class="product-desc">Patacón Maduro, Carne Picada, Pollo desmechado, Chorizo Artesanal, Cebolla grille, Maíz Dulce, Queso Mozarela gratinado y tocineta.</p>
-          </div>
-          <span class="product-price" style="color:var(--orange); text-shadow:var(--glow-orange);">$35.000</span>
-        </article>
-
-      </div><!-- /patacones grid -->
-
-      <p style="font-family:'Bebas Neue',cursive; font-size:1.05rem; letter-spacing:.12em;
-                color:rgba(255,255,255,.35); margin-top:1.5rem; text-align:center;">
-        "NO TE QUEDES CON LAS GANAS... ¡HAZ TU PEDIDO AHORA!"
-      </p>
-
-    </section><!-- /patacones -->
-
-  </main>
-
-  <!-- ===== FOOTER ===== -->
-  <footer class="site-footer">
-    © 2025 Gustavo Burger El Original &nbsp;·&nbsp; Cocina Oculta &nbsp;·&nbsp;
-    <a href="tel:3189468984" style="color:inherit;">3189468984</a>
-  </footer>
-
-  <!-- ===== BOTÓN FLOTANTE WHATSAPP ===== -->
-  <a href="https://wa.me/573189468984" target="_blank" rel="noopener noreferrer"
-     class="whatsapp-fab" aria-label="Hacer pedido por WhatsApp">
-    <svg viewBox="0 0 24 24" aria-hidden="true">
-      <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/>
-      <path d="M12 0C5.373 0 0 5.373 0 12c0 2.125.558 4.121 1.532 5.853L.057 23.057a.75.75 0 00.918.918l5.204-1.475A11.952 11.952 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22c-1.891 0-3.667-.523-5.188-1.432l-.372-.224-3.862 1.095 1.095-3.861-.224-.372A9.956 9.956 0 012 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z"/>
-    </svg>
-  </a>
-
-  <!-- Script de tabs -->
-  <script src="script.js"></script>
-
-</body>
+    <!-- Script de tabs -->
+    <script src="script.js"></script>
+  </body>
 </html>

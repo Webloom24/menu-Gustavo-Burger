@@ -1,0 +1,260 @@
+══════════════════════════════════════════════════════════════════
+  REPORTE DE PRODUCTOS SIN IMAGEN — GUSTAVO BURGER EL ORIGINAL
+  Generado desde: menu.html
+══════════════════════════════════════════════════════════════════
+
+Total de productos en el menú: 38
+Productos CON imagen (del cliente): 12
+Productos SIN imagen (a generar con IA): 26
+
+──────────────────────────────────────────────────────────────────
+  🍔 HAMBURGUESAS
+  Total en esta sección: 9 productos | SIN imagen: 4
+──────────────────────────────────────────────────────────────────
+
+1. Clásica Pollo
+   Ingredientes: Filete de Pollo o desmechado, cebolla grille, queso mozzarella, lechuga, tomate, arepa y nuestra rica salsa.
+   Precio: $20.000
+   Archivo sugerido: hamburguesa-clasica-pollo.webp
+
+2. De la Casa
+   Ingredientes: Carne de res, pollo desmechado, huevo frito, tocineta, lechuga, tomate, cebolla grille con queso, rico chorizo artesanal en la papa francesa y nuestra rica salsa.
+   Precio: $28.000
+   Archivo sugerido: hamburguesa-de-la-casa.webp
+
+3. Doble Carne
+   Ingredientes: Dos carnes de res, cebolla grille, queso mozzarella, tocineta, pollo desmechado, lechuga, tomate y nuestra rica salsa.
+   Precio: $30.000
+   Archivo sugerido: hamburguesa-doble-carne.webp
+
+4. Mixta Especial
+   Ingredientes: Carne de res, filete de pollo, tocineta, cebolla grille, queso mozarela, lechuga, tomate y nuestra rica salsa.
+   Precio: $30.000
+   Archivo sugerido: hamburguesa-mixta-especial.webp
+
+──────────────────────────────────────────────────────────────────
+  🌭 PERROS CALIENTES
+  Total en esta sección: 6 productos | SIN imagen: 5
+──────────────────────────────────────────────────────────────────
+  (Base de todos: salchicha americana, cebolla grille y queso mozarela gratinado)
+
+1. Perro Clásico
+   Ingredientes: Lechuga, tomate, papa Ripi.
+   Precio: $16.000
+   Archivo sugerido: perro-clasico.webp
+
+2. Perro Especial
+   Ingredientes: Lechuga, tomate, papa Ripi, tocineta.
+   Precio: $19.000
+   Archivo sugerido: perro-especial.webp
+
+3. Perro Loco Americano
+   Ingredientes: Carne picada, pollo desmechado.
+   Precio: $25.000
+   Archivo sugerido: perro-loco-americano.webp
+
+4. Choriperro
+   Ingredientes: Chorizo picado, cebolla grille, lechuga, tomate, papa ripio, tártara de la casa y queso mozzarella gratinado.
+   Precio: $ Consultar
+   Archivo sugerido: choriperro.webp
+
+5. Mega Perro Gustavo Burguer
+   Ingredientes: Dos salchichas americanas, carne picada, pollo desmechado, maíz y tocineta.
+   Precio: $40.000
+   Archivo sugerido: mega-perro-gustavo-burger.webp
+
+──────────────────────────────────────────────────────────────────
+  🔥 PICADAS AL CARBÓN
+  Total en esta sección: 3 productos | SIN imagen: 2
+──────────────────────────────────────────────────────────────────
+
+1. Picada Original
+   Ingredientes: Carne picada, filete de pollo, salchicha americana, chorizo artesanal, chicharrón, maíz, queso mozarela gratinado y tocineta.
+   Precio: $50.000
+   Archivo sugerido: picada-original.webp
+
+2. Picada Especial
+   Ingredientes: Costilla, pernil mixto, chorizo artesanal, lomo de cerdo, rica papa amarilla y papa francesa.
+   Precio: $60.000
+   Archivo sugerido: picada-especial.webp
+
+──────────────────────────────────────────────────────────────────
+  🥩 PARRILLA GUSTAVO BURGER
+  Total en esta sección: 7 productos | SIN imagen: 5
+──────────────────────────────────────────────────────────────────
+
+1. Costilla BBQ
+   Ingredientes: Costilla bañada en salsa BBQ, acompañada de chorizo artesanal y papa francesa.
+   Precio: $35.000
+   Archivo sugerido: costilla-bbq.webp
+
+2. Alitas BBQ y Miel Mostaza
+   Ingredientes: Alitas empanizadas en salsa BBQ y miel mostaza, acompañadas de papa francesa.
+   Precio: $35.000
+   Archivo sugerido: alitas-bbq-miel-mostaza.webp
+
+3. Filete de Pechuga
+   Ingredientes: Filete de pechuga a la plancha con chorizo artesanal, acompañado de ensalada fresca y papa francesa.
+   Precio: $22.000
+   Archivo sugerido: filete-pechuga.webp
+
+4. Pechuga a la Plancha
+   Ingredientes: Pechuga (450g) asada, acompañada de chorizo artesanal, ensalada fresca y papa francesa.
+   Precio: $28.000
+   Archivo sugerido: pechuga-plancha.webp
+
+5. Pechuga Ranchera
+   Ingredientes: Pechuga asada con queso mozarela gratinado y tocineta, acompañada de papa amarilla y ensalada fresca.
+   Precio: $35.000
+   Archivo sugerido: pechuga-ranchera.webp
+
+──────────────────────────────────────────────────────────────────
+  🍟 SALCHI & CHORI PAPAS
+  Total en esta sección: 6 productos | SIN imagen: 6
+  (Sección sin ninguna imagen — prioridad alta para generar)
+──────────────────────────────────────────────────────────────────
+
+— BÁSICAS —
+
+1. Salchipapa
+   Ingredientes: Papa francesa con salchicha americana.
+   Precio: $17.000
+   Archivo sugerido: salchipapa.webp
+
+2. Choripapa
+   Ingredientes: Papa francesa con chorizo artesanal.
+   Precio: $17.000
+   Archivo sugerido: choripapa.webp
+
+3. Chorimixto
+   Ingredientes: Papa francesa con salchicha americana y chorizo artesanal.
+   Precio: $21.000
+   Archivo sugerido: chorimixto.webp
+
+— ESPECIALES —
+
+4. Salchipapa Especial
+   Ingredientes: Papa francesa, salchicha americana, papa Ripi, queso rallado, salsa, pollo desmechado, queso mozarela gratinado.
+   Precio: $28.000
+   Archivo sugerido: salchipapa-especial.webp
+
+5. Choripapa Especial
+   Ingredientes: Papa francesa, chorizo artesanal, papa Ripi, queso rallado, salsa, pollo desmechado, queso mozarela gratinado.
+   Precio: $28.000
+   Archivo sugerido: choripapa-especial.webp
+
+6. Papas Locas
+   Ingredientes: Papa francesa, carne picada, pollo desmechado, jamón, queso mozarela, chorizo artesanal y rica salsa.
+   Precio: $38.000
+   Archivo sugerido: papas-locas.webp
+
+──────────────────────────────────────────────────────────────────
+  🌽 DESGRANADOS
+  Total en esta sección: 3 productos | SIN imagen: 2
+──────────────────────────────────────────────────────────────────
+
+1. Desgranado de Pollo
+   Ingredientes: Maíz dulce con pollo desmechado y cebolla grille, nuestra rica salsa y queso mozzarella gratinado.
+   Precio: $26.000
+   Archivo sugerido: desgranado-pollo.webp
+
+2. Desgranado de Carne
+   Ingredientes: Maíz dulce con carne picada y cebolla grille, rica salsa de la casa y queso mozzarella gratinado.
+   Precio: $26.000
+   Archivo sugerido: desgranado-carne.webp
+
+──────────────────────────────────────────────────────────────────
+  🍌 PATACONES
+  Total en esta sección: 4 productos | SIN imagen: 2
+──────────────────────────────────────────────────────────────────
+  (Base de todos: Plátano Maduro)
+
+1. Patacón de Carne
+   Ingredientes: Patacón Maduro, Carne Picada, Chorizo Artesanal, Cebolla grille, Queso Mozarela gratinado.
+   Precio: $28.000
+   Archivo sugerido: patacon-carne.webp
+
+2. Patacón de Pollo
+   Ingredientes: Patacón Maduro, Pollo desmechado, Chorizo Artesanal, Cebolla grille, Queso Mozarela gratinado.
+   Precio: $28.000
+   Archivo sugerido: patacon-pollo.webp
+
+══════════════════════════════════════════════════════════════════
+  📊 RESUMEN EJECUTIVO
+══════════════════════════════════════════════════════════════════
+
+Total de productos en el menú:           38
+Productos CON imagen (del cliente):      12
+Productos SIN imagen (a generar):        26
+
+Distribución por categoría:
+  🍔 Hamburguesas:          4 sin imagen  (de 9 en total)
+  🌭 Perros Calientes:      5 sin imagen  (de 6 en total)
+  🔥 Picadas al Carbón:     2 sin imagen  (de 3 en total)
+  🥩 Parrilla:              5 sin imagen  (de 7 en total)
+  🍟 Salchi & Chori Papas:  6 sin imagen  (de 6 en total)  ← 100% pendiente
+  🌽 Desgranados:           2 sin imagen  (de 3 en total)
+  🍌 Patacones:             2 sin imagen  (de 4 en total)
+
+──────────────────────────────────────────────────────────────────
+  LISTA RÁPIDA DE NOMBRES DE ARCHIVO A GENERAR (26 total)
+──────────────────────────────────────────────────────────────────
+
+Hamburguesas (4):
+  hamburguesa-clasica-pollo.webp
+  hamburguesa-de-la-casa.webp
+  hamburguesa-doble-carne.webp
+  hamburguesa-mixta-especial.webp
+
+Perros Calientes (5):
+  perro-clasico.webp
+  perro-especial.webp
+  perro-loco-americano.webp
+  choriperro.webp
+  mega-perro-gustavo-burger.webp
+
+Picadas al Carbón (2):
+  picada-original.webp
+  picada-especial.webp
+
+Parrilla (5):
+  costilla-bbq.webp
+  alitas-bbq-miel-mostaza.webp
+  filete-pechuga.webp
+  pechuga-plancha.webp
+  pechuga-ranchera.webp
+
+Salchi & Chori Papas (6):
+  salchipapa.webp
+  choripapa.webp
+  chorimixto.webp
+  salchipapa-especial.webp
+  choripapa-especial.webp
+  papas-locas.webp
+
+Desgranados (2):
+  desgranado-pollo.webp
+  desgranado-carne.webp
+
+Patacones (2):
+  patacon-carne.webp
+  patacon-pollo.webp
+
+══════════════════════════════════════════════════════════════════
+  PRODUCTOS CON IMAGEN YA ASIGNADA (excluidos del reporte)
+══════════════════════════════════════════════════════════════════
+
+  1.  Hamburguesas > Clásica            → hamburguesa sencilla.webp
+  2.  Hamburguesas > Especial           → hamburguesa especial.webp
+  3.  Hamburguesas > Artesanal          → hamburguesa artesanal.webp
+  4.  Hamburguesas > Super Especial     → hamburguesa super especial.webp
+  5.  Hamburguesas > Mega Burger        → hamburguesa mega burger.webp  (sección)
+  6.  Perros Calientes > Perro Americano → perro-americano.webp         (sección)
+  7.  Picadas > Picada Gustavo Burguer  → picada-gustavo-burger.webp   (sección)
+  8.  Parrilla > Chata al Carbón        → chata al carbon.webp         (sección)
+  9.  Parrilla > Pernil Mixto           → pernil mixto.webp            (cierre)
+  10. Desgranados > Desgranado Especial → desgranado especial.webp     (sección)
+  11. Patacones > Patacón Especial      → patacon especial.webp        (cierre)
+  12. Patacones > Patacón Super Especial → patacon super especial.webp (sección)
+
+══════════════════════════════════════════════════════════════════
