@@ -155,6 +155,10 @@ body::before {
 /* ===== TARJETA DE PRODUCTO — MOBILE FIRST VERTICAL ===== */
 .product-card {
   width: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
+  margin-left: 0;
+  margin-right: 0;
   background: rgba(26,26,26,.95);
   border-radius: 16px;
   overflow: hidden;
@@ -298,6 +302,11 @@ body::before {
 .products-grid {
   display: grid;
   gap: .85rem;
+  width: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* ===== DIVISOR NEÓN ===== */
@@ -550,9 +559,13 @@ body::before {
 
 /* Móvil general (< 768px) */
 @media (max-width: 767px) {
+  .products-grid {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
   .product-card {
-    margin-left: 8px;
-    margin-right: 8px;
+    margin-left: 0;
+    margin-right: 0;
     margin-bottom: 20px;
   }
   .product-image-wrapper { padding-bottom: 75%; }
@@ -564,14 +577,14 @@ body::before {
 /* Tablet (768px – 1023px): 2 columnas */
 @media (min-width: 768px) and (max-width: 1023px) {
   .products-grid {
-    display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 16px;
-    padding: 0 16px;
+    padding-left: 16px;
+    padding-right: 16px;
   }
   .product-card          { margin-bottom: 0; }
   .product-image-wrapper { padding-bottom: 66.67%; } /* 3:2 */
-  .tab-panel             { padding: 1.5rem 1.5rem 6rem; }
+  .tab-panel             { padding: 1.5rem 0 6rem; }
 }
 
 /* Desktop (≥ 1024px): tarjeta horizontal */
@@ -581,8 +594,10 @@ body::before {
     gap: 12px;
     max-width: 900px;
     margin: 0 auto;
+    padding-left: 24px;
+    padding-right: 24px;
   }
-  .tab-panel       { max-width: 1200px; margin: 0 auto; }
+  .tab-panel       { max-width: 1200px; margin: 0 auto; padding-left: 0; padding-right: 0; }
   .tabs-scroll     { justify-content: center; }
   .category-title  { font-size: 3rem; }
 
