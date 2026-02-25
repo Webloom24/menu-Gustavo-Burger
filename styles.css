@@ -18,10 +18,10 @@
   --white:   #ffffff;
   --gray:    #aaaaaa;
 
-  --glow-pink:   0 0 8px #FF0080, 0 0 20px #FF0080, 0 0 40px rgba(255,0,128,.4);
-  --glow-cyan:   0 0 8px #00F0FF, 0 0 20px #00F0FF, 0 0 40px rgba(0,240,255,.4);
-  --glow-orange: 0 0 8px #FF6B00, 0 0 20px #FF6B00, 0 0 40px rgba(255,107,0,.4);
-  --glow-yellow: 0 0 6px #FFD600, 0 0 16px #FFD600;
+  --glow-pink:   0 0 6px #000, 0 0 10px #FF0080, 0 0 24px #FF0080, 0 0 48px rgba(255,0,128,.5);
+  --glow-cyan:   0 0 6px #000, 0 0 10px #00F0FF, 0 0 24px #00F0FF, 0 0 48px rgba(0,240,255,.5);
+  --glow-orange: 0 0 6px #000, 0 0 10px #FF6B00, 0 0 24px #FF6B00, 0 0 48px rgba(255,107,0,.5);
+  --glow-yellow: 0 0 4px #000, 0 0 8px #FFD600, 0 0 20px #FFD600, 0 0 40px rgba(255,214,0,.5);
 
   --font-title: 'Bebas Neue', cursive;
   --font-body:  'Poppins', sans-serif;
@@ -33,14 +33,15 @@
 }
 html { scroll-behavior: smooth; }
 
-/* ===== BODY — FONDO DE LADRILLO + NEÓN ===== */
+/* ===== BODY — FONDO IMAGEN + NEÓN ===== */
 body {
   font-family: var(--font-body);
   background-color: var(--bg);
-  /* Textura ladrillo oscuro con SVG inline */
-  background-image:
-    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='80' height='40'%3E%3Crect width='80' height='40' fill='%230d0508'/%3E%3Crect x='1' y='1' width='76' height='17' rx='2' fill='%23200a10' opacity='0.75'/%3E%3Crect x='1' y='22' width='36' height='17' rx='2' fill='%231a0810' opacity='0.75'/%3E%3Crect x='41' y='22' width='38' height='17' rx='2' fill='%231e0a12' opacity='0.75'/%3E%3C/svg%3E");
-  background-size: 80px 40px;
+  background-image: url('images/background.webp');
+  background-size: cover;
+  background-position: center top;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
   color: var(--white);
   min-height: 100vh;
   overflow-x: hidden;
@@ -279,6 +280,7 @@ body::before {
   display: inline-block;
   font-size: .7rem; font-weight: 600; letter-spacing: .08em;
   color: var(--orange);
+  background: rgba(8, 3, 6, 0.7);
   border: 1px solid var(--orange);
   border-radius: 20px;
   padding: .2rem .75rem;
@@ -289,12 +291,12 @@ body::before {
 
 /* ===== NOTA DE CATEGORÍA ===== */
 .category-note {
-  background: rgba(0,240,255,.06);
+  background: rgba(0, 4, 6, 0.65);
   border-left: 3px solid var(--cyan);
   border-radius: 0 8px 8px 0;
   padding: .6rem 1rem;
   font-size: .8rem; font-style: italic;
-  color: rgba(0,240,255,.85);
+  color: rgba(0,240,255,.9);
   margin-bottom: 1rem;
 }
 
@@ -372,8 +374,10 @@ body::before {
 /* ===== PANEL DE TAB ===== */
 .tab-panel {
   display: none;
-  padding: 1.2rem 1rem 6rem;
+  padding: 1.5rem 1.5rem 6rem;
   animation: fadeInUp .3s ease;
+  /* Fondo oscuro semi-transparente para legibilidad sobre el background.webp */
+  background: rgba(8, 3, 6, 0.78);
 }
 .tab-panel.active { display: block; }
 
@@ -584,7 +588,7 @@ body::before {
   }
   .product-card          { margin-bottom: 0; }
   .product-image-wrapper { padding-bottom: 66.67%; } /* 3:2 */
-  .tab-panel             { padding: 1.5rem 0 6rem; }
+  .tab-panel             { padding: 1.5rem 1.5rem 6rem; }
 }
 
 /* Desktop (≥ 1024px): tarjeta horizontal */
@@ -597,7 +601,7 @@ body::before {
     padding-left: 24px;
     padding-right: 24px;
   }
-  .tab-panel       { max-width: 1200px; margin: 0 auto; padding-left: 0; padding-right: 0; }
+  .tab-panel       { max-width: 1200px; margin: 0 auto; padding-left: 2.5rem; padding-right: 2.5rem; }
   .tabs-scroll     { justify-content: center; }
   .category-title  { font-size: 3rem; }
 
